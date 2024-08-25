@@ -1,11 +1,4 @@
-using System;
-
-class Program
-{
-    static void Main(string[] args)
+static int KnapSack(int W, int[] wt, int[] val, int n)
     {
-        int[] val = new int[] { 60, 100, 120 };
-        int[] wt = new int[] { 10, 20, 30 };
-        int W = 50;
-        int n = val.Length;
+        int[,] K = new int[n + 1, W + 1];
     }
